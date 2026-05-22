@@ -80,10 +80,8 @@ export default function Hero() {
                   className="text-2xl sm:text-3xl font-bold leading-tight text-zinc-50 px-2"
                   dir="rtl"
                 >
-                  البساطة ليست قلة معرفة،
-                  <br />
-                  بل{' '}
-                  <span className="text-green-500">نضج في اتخاذ القرار</span>
+                  أساعدك على بناء نظام تداول{' '}
+                  <span className="text-green-500">مرن ومستدام</span>
                 </motion.h1>
 
                 {/* Subheadline - more compact */}
@@ -94,7 +92,18 @@ export default function Hero() {
                   className="text-sm sm:text-base leading-relaxed text-zinc-300 px-4"
                   dir="rtl"
                 >
-                  منهجية التداول مع الاتجاه لبناء مشروع تداول بعيدًا عن الضجيج
+                  يتماشى مع ضغوط الحياة ومشاغلها
+                </motion.p>
+
+                {/* Fine print */}
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.6, delay: 0.7 }}
+                  className="text-xs leading-relaxed text-zinc-500 px-4"
+                  dir="rtl"
+                >
+                  من خلال منهجية تداول الاتجاه متوسط الأجل.
                 </motion.p>
               </div>
 
@@ -228,10 +237,8 @@ export default function Hero() {
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-zinc-50"
                 dir="rtl"
               >
-                البساطة ليست قلة معرفة،
-                <br />
-                بل{' '}
-                <span className="text-green-500">نضج في اتخاذ القرار</span>
+                أساعدك على بناء نظام تداول{' '}
+                <span className="text-green-500">مرن ومستدام</span>
               </motion.h1>
 
               {/* Subheadline */}
@@ -242,8 +249,18 @@ export default function Hero() {
                 className="text-base sm:text-lg md:text-xl leading-relaxed text-zinc-300"
                 dir="rtl"
               >
-                منهجية التداول مع الاتجاه
-                لبناء مشروع تداول بعيدًا عن الضجيج
+                يتماشى مع ضغوط الحياة ومشاغلها
+              </motion.p>
+
+              {/* Fine print */}
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 1.1 }}
+                className="text-sm leading-relaxed text-zinc-500"
+                dir="rtl"
+              >
+                من خلال منهجية تداول الاتجاه متوسط الأجل.
               </motion.p>
 
               {/* Trust indicators */}
