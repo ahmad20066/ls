@@ -33,15 +33,30 @@ export default function Home() {
             className="text-center"
             dir="rtl"
           >
-            <motion.p
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed text-zinc-300 font-light max-w-4xl mx-auto"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-zinc-50 mb-8"
             >
-              التحليل الفني للمستثمرين، التجار، المضاربين، بما في ذلك صناديق التحوط، صناديق الاستثمار المشتركة، المستشارين الماليين والناس العاديين
-            </motion.p>
+              عزيزي الموظف أو صاحب العمل،
+            </motion.h2>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="space-y-5 text-lg sm:text-xl md:text-2xl leading-relaxed text-zinc-300 font-light max-w-4xl mx-auto"
+            >
+              <p>يعتقد الكثير من الناس أن التداول يحتاج ساعات طويلة من المتابعة والتركيز المستمر…</p>
+              <p>وأن النجاح في الأسواق لا يتحقق إلا إذا كنت جالسًا طوال اليوم أمام الشاشة.</p>
+              <p>لكن الحقيقة مختلفة تمامًا.</p>
+              <p>الأسواق المالية تحتوي على أساليب متعددة لتحقيق الربح،</p>
+              <p>وهناك أسلوب تداول يتماشى بشكل كبير مع الأشخاص الذين يمتلكون أعمالًا، وظائف، ومسؤوليات يومية كثيرة…</p>
+              <p>وهو تداول الاتجاهات متوسطة الأجل.</p>
+            </motion.div>
             
             {/* Decorative line */}
             <motion.div
