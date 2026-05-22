@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function WhatsAppFAB() {
   const [isHovered, setIsHovered] = useState(false);
-  const whatsappNumber = '96892272122';
+  const whatsappNumber = '96890620474';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (

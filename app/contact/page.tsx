@@ -75,8 +75,8 @@ export default function ContactPage() {
     {
       icon: '📱',
       title: 'واتساب',
-      value: '+968 92272122',
-      link: 'https://wa.me/96892272122'
+      value: '+968 90620474',
+      link: 'https://wa.me/96890620474'
     },
     {
       icon: '📷',
@@ -93,11 +93,11 @@ export default function ContactPage() {
   ];
 
   const services = [
-    'مهارة التحليل الفني',
+    'مجتمع تداولات ليث',
     'منهجية تأهيل تاجر المعادن',
     'التوجيه والمتابعة المباشرة',
     'شراكة واعية مع المستثمر',
-    'استشارة عامة'
+    'جلسة تدريبية استشارية فردية'
   ];
 
   return (
@@ -270,7 +270,7 @@ export default function ContactPage() {
                             value={formData.phone}
                             onChange={handleInputChange}
                             className="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 rounded-lg text-zinc-50 focus:outline-none focus:border-green-500 transition-colors"
-                            placeholder="+966 50 123 4567"
+                            placeholder="+968 12345678"
                           />
                         </div>
 
